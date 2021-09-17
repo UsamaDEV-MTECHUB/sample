@@ -1,5 +1,5 @@
 <?php
-echo 'ddd';        
+        
 include('include/db.php');
 $_SESSION['myip']=$_SERVER['REMOTE_ADDR']; 
 if(isset($_GET['action'])) {
